@@ -1,0 +1,103 @@
+
+
+  #all_tabs {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc; 
+  };
+
+  .tab {
+    background-color: #eaeaea; 
+  }
+
+  /* Estilos para o botão da aba */
+  .tab-button {
+    cursor: pointer;
+    padding: 10px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4e7235;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    transition: background-color 0.3s ease; 
+  }
+  
+
+  .tab-button:hover {
+    background-color: #728d5f;
+    border: 1.5px solid #606060;
+    
+  }
+
+  /* Estilos para a aba ativa */
+  .active-tab {
+    display: inline-block;
+  }
+
+  #tab1, #tab2, #tab3, #tab4, #tab5, #tab6{
+    font-family: Arial,Helvetica,sans-serif;
+    color: #43612D;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1px 0px 1px 10px;
+    line-height: normal;
+    font-size: 28px;
+    background: #eaeaea;
+  }
+
+  .corpo_texto{
+    font-size: 17.5px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    grid-template-areas:
+      "botoes  imagem"
+      "botoes imagem" 
+  }
+  
+  .left-content {
+    grid-area: botoes; 
+  }
+
+  .rigth-content {
+    grid-area: imagem; 
+  }
+
+  .tab-buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .img_container {
+    text-align: center; /* Align the image to the right */
+  }
+
+  .url, .sku{
+    color: #949494
+  }
+
+  .nome-produto{
+    font-size: 24px ;
+    font-family: 'Libre Franklin';
+    color: #201f1f;
+  }
+
+  .precos-wrap{
+    margin-top: 20px;
+  }
+
+  .preco-promocional {
+    color: #43622d;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .comprar{
+    display: flex;
+    margin-top: 20px;
+  }
