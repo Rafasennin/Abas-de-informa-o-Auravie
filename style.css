@@ -101,3 +101,70 @@
     display: flex;
     margin-top: 20px;
   }
+
+
+  /* Adicione estas regras de mídia para estilos específicos de dispositivos */
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Altere para uma única coluna em telas menores */
+    grid-template-areas:
+      "imagem"
+      "botoes"; /* Altere a ordem para acomodar melhor os dispositivos móveis */
+  }
+
+  .tab-buttons {
+    flex-direction: column ; /* Empilhe os botões verticalmente */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+   margin: 0 auto;
+
+  }
+
+  .rigth-content {
+    order: -1; /* Altere a ordem para a imagem aparecer antes dos botões */
+  }
+
+  .tab-button {
+    width: 100%; /* Preencha a largura disponível */
+    margin-bottom: 10px; /* Adicione algum espaçamento entre os botões */
+  }
+
+  .img_sun{
+    width: 95%;
+  }
+}
+
+/* Adicione estas regras de mídia para estilos específicos de dispositivos (tablets) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Altere para uma única coluna em telas menores */
+    grid-template-areas:
+      "imagem"
+      "botoes"; /* Altere a ordem para acomodar melhor os tablets */
+  }
+
+  .tab-buttons {
+    flex-direction: column; /* Empilhe os botões verticalmente */
+    justify-content: center;
+    align-items: center;
+    width: 80%; /* Ajuste a largura para 80% da largura disponível */
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .rigth-content {
+    order: -1; /* Altere a ordem para a imagem aparecer antes dos botões */
+  }
+
+  .tab-button {
+    width: 100%; /* Preencha a largura disponível */
+    margin-bottom: 10px; /* Adicione algum espaçamento entre os botões */
+  }
+
+  .img_sun {
+    width: 95%;
+  }
+}
+
