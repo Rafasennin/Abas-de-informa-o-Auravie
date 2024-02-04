@@ -40,7 +40,7 @@ Este protótipo é uma representação visual da página de detalhes do produto.
 
 ## Contribuidores
 
-- [Softwras developer - Rafael Dos Santos](https://github.com/Rafasennin)
+- [Software developer - Rafael Dos Santos](https://github.com/Rafasennin)
 
 Sinta-se à vontade para contribuir criando problemas, fornecendo feedback ou sugerindo melhorias.
 
